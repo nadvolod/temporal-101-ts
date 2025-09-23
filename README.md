@@ -15,7 +15,7 @@ This is part of the Building Invincible Apps Using Temporal Udemy [course](TBD)
 ## Your Instructor: Nikolay Advolodkin
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=900&color=00C2FF&center=true&vCenter=true&repeat=true&width=700&lines=AI‑Driven+Development;Live+Demos+%26+Testing+Hacks;Temporal+%2B+TypeScript+%2B+Playwright" alt="Animated headline rotating topics" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=900&color=00C2FF&center=true&vCenter=true&repeat=true&width=700&lines=My+purpose+is+to+elevate+how+humans+create+technology" alt="Animated mission statement" />
 </p>
 
 <img alt="Nikolay Advolodkin" src="https://b1472923.smushcdn.com/1472923/wp-content/uploads/2024/10/IMG_1980-scaled.jpg?lossy=0&strip=1&webp=1" width="300">
