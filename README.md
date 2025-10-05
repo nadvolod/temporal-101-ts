@@ -6,11 +6,19 @@
 
 This repository contains code samples and tutorials for building applications using [Temporal](https://temporal.io/), an open-source platform for orchestrating microservices and managing complex workflows.
 
-This is part of the Building Invincible Apps Using Temporal Udemy [course](TBD)
+This is part of the Building Invincible Apps Using Temporal Udemy [course](https://go.ultimateqa.com/temporal-udemy)
+
+<p align="center">
+  <a href="https://go.ultimateqa.com/temporal-udemy">
+    <img src="https://github.com/user-attachments/assets/4f7cfda9-768f-47c6-b936-f3eab8ed7472" alt="Temporal Course" width="600">
+  </a>
+</p>
 
 ## Resources
 
 - [Temporal Documentation](https://docs.temporal.io/)
+- [Temporal Slack Community](https://app.slack.com/client/TNWA8QCGZ/CTRCR8RBP) - Join the conversation and get help from the community
+- [Temporal Community Forum](https://community.temporal.io/?utm_source=course&utm_medium=sponsorship&utm_campaign=course-temporal101&utm_content=nikolay-udemy-temporal101) - Ask questions and share knowledge
 
 ## Your Instructor: Nikolay Advolodkin
 
@@ -39,6 +47,7 @@ The [Hello World Tutorial](https://learn.temporal.io/getting_started/typescript/
 ### Running this sample
 
 1. `temporal server start-dev` to start [Temporal Server](https://github.com/temporalio/cli/#installation).
+1. `cd my-app` to navigate to the project directory.
 1. `npm install` to install dependencies.
 1. `npm run start.watch` to start the Worker.
 1. In another shell, `npm run workflow` to run the Workflow Client.
@@ -48,3 +57,23 @@ The Workflow should return:
 ```bash
 Hello, Temporal!
 ```
+
+### Additional CLI Commands
+
+**Development:**
+- `npm run build` - Compile TypeScript code
+- `npm run build.watch` - Watch mode for TypeScript compilation
+- `npm run start` - Start the Worker (without watch mode)
+- `npm run workflow` - Execute the Workflow Client
+
+**Code Quality:**
+- `npm run lint` - Run ESLint to check code quality
+- `npm run format` - Format code with Prettier
+- `npm run format:check` - Check if code is formatted correctly
+- `npm run test` - Run Mocha tests
+
+**Temporal CLI Commands:**
+- `temporal server start-dev` - Start Temporal development server
+- `temporal workflow list` - List all workflows
+- `temporal workflow describe --workflow-id <workflow-id>` - Get workflow details
+- `temporal workflow show --workflow-id <workflow-id>` - Show workflow execution history
